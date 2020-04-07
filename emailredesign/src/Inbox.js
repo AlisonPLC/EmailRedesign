@@ -1,4 +1,5 @@
 import React from "react";
+import defaultImage from "./Assets/default.png";
 
 function Inbox() {
   return (
@@ -11,8 +12,8 @@ function Inbox() {
       </div>
       <div className="inboxActions">
         <input type="checkbox"></input>
-        <img src="null" alt="reload" />
-        <img src="null" alt="oprions" />
+        <img src={defaultImage} alt="reload" />
+        <img src={defaultImage} alt="oprions" />
       </div>
       <div className="inboxInboxArea">
         <div className="mailItem">

@@ -1,5 +1,6 @@
 import React from "react";
 import mailLogo from "./Assets/gmail-logo-1.png";
+import defaultImage from "./Assets/default.png";
 
 function Navbar() {
   return (
@@ -7,29 +8,29 @@ function Navbar() {
       <div className="NavbarHeader">
         <img className="navbarLogo" src={mailLogo} alt="Logo" />
         <span>Gmail</span>
-        <img classnName="navbarSlider" src="null" alt="NavButton" />
+        <img className="navbarSlider" src={defaultImage} alt="NavButton" />
       </div>
       <div className="composeButton">
         <span>+ Compose</span>
       </div>
       <div className="emailTags">
         <div className="tagsTopic">
-          <img src="null" alt="logo" />
+          <img src={defaultImage} alt="logo" />
           <span>Inbox</span>
 
-          <img src="null" alt="notification" />
+          <img src={defaultImage} alt="notification" />
         </div>
         {/*can be "copied" as shin said*/}
       </div>
       <div className="chatArea">
         <div className="chatHeader">
           <span>Chat</span>
-          <img src="null" alt="minimize" />
-          <img src="null" alt="expand" />
+          <img src={defaultImage} alt="minimize" />
+          <img src={defaultImage} alt="expand" />
         </div>
         <div className="recentChats">
           <div className="chatPerson">
-            <img src="null" alt="targuetLogo" />
+            <img src={defaultImage} alt="targuetLogo" />
             <span className="targuetName">NomeDoIndivíduo</span>
           </div>
           {/*can be "copied" as shin said*/}

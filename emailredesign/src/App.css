@@ -1,16 +1,11 @@
 .App {
   display: grid;
+  grid-template-rows: 15%;
   grid-template-areas:
     "navbar toolbar toolbar toolbar toolbar toolbar"
     "navbar inbox inbox mailView mailView mailView"
-    "navbar inbox inbox mailView mailView mailView"
-    "navbar inbox inbox mailView mailView mailView"
-    "navbar inbox inbox mailView mailView mailView"
-    "navbar inbox inbox mailView mailView mailView"
-    "navbar inbox inbox mailView mailView mailView"
-    "navbar inbox inbox mailView mailView mailView"
-    "navbar inbox inbox mailView mailView mailView"
     "navbar inbox inbox mailView mailView mailView";
+
   background-color: lightgray;
   margin: 0px;
   padding: 0px;

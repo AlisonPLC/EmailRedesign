@@ -5,8 +5,12 @@
   border-right: 1px solid gray;
 }
 .NavbarHeader {
+  display: flex;
   margin-top: 20px;
   margin-left: 40px;
+}
+.NavbarHeader span {
+  margin-left: 10px;
 }
 .navbarLogo {
   margin-left: 5px;
@@ -14,7 +18,9 @@
   max-height: 22px;
 }
 .navbarSlider {
-  margin-left: 40px;
+  margin-left: 100px;
+  max-width: 15px;
+  max-height: 15px;
 }
 .composeButton {
   margin-top: 100px;

@@ -1,4 +1,5 @@
 import React from "react";
+import defaultImage from "./Assets/default.png";
 
 function MailView() {
   return (
@@ -8,7 +9,7 @@ function MailView() {
       </div>
       <div className="mailHeader">
         <div className="senderContainer">
-          <img src="null" alt="sender Logo" />
+          <img src={defaultImage} alt="sender Logo" />
         </div>
         <div className="senderInfo">
           <span>Sender Name</span>
@@ -20,13 +21,13 @@ function MailView() {
       </div>
       <div className="mailOptions">
         <div className="firstOptions">
-          <img src="null" alt="markOption" />
-          <img src="null" alt="importantOption" />
+          <img src={defaultImage} alt="markOption" />
+          <img src={defaultImage} alt="importantOption" />
         </div>
         <div className="secondOptions">
-          <img src="null" alt="replyOption" />
-          <img src="null" alt="deliverOption" />
-          <img src="null" alt="options" />
+          <img src={defaultImage} alt="replyOption" />
+          <img src={defaultImage} alt="deliverOption" />
+          <img src={defaultImage} alt="options" />
         </div>
       </div>
       <div className="MailBody"></div>
