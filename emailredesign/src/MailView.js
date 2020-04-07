@@ -19,11 +19,15 @@ function MailView() {
         </div>
       </div>
       <div className="mailOptions">
-        <img src="null" alt="markOption" />
-        <img src="null" alt="importantOption" />
-        <img src="null" alt="replyOption" />
-        <img src="null" alt="deliverOption" />
-        <img src="null" alt="options" />
+        <div className="firstOptions">
+          <img src="null" alt="markOption" />
+          <img src="null" alt="importantOption" />
+        </div>
+        <div className="secondOptions">
+          <img src="null" alt="replyOption" />
+          <img src="null" alt="deliverOption" />
+          <img src="null" alt="options" />
+        </div>
       </div>
       <div className="MailBody"></div>
     </div>

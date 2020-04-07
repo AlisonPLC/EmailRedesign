@@ -18,11 +18,11 @@ function Inbox() {
         <div className="mailItem">
           <div className="mailMain">
             <div>
-              <h2>MailSENSER</h2>
+              <h3>MailSENDER</h3>
               <h3>MailSUBJECT</h3>
-              <h4>MailSTART</h4>
+              <h3>MailSTART</h3>
             </div>
-            <span>SENT</span>
+            <h4>SENT</h4>
           </div>
           {/*can be "copied as shin shin said" */}
         </div>

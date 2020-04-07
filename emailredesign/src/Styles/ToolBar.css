@@ -1,0 +1,21 @@
+.Toolbar {
+  grid-area: toolbar;
+  max-height: 55px;
+  max-width: 1500px;
+  background-color: white;
+}
+.Toolbar input {
+  width: 300px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 25px;
+}
+.openMenu {
+  margin-top: 10px;
+  margin-left: 400px;
+}
+.userLogo {
+  margin-top: 10px;
+  margin-left: 20px;
+}

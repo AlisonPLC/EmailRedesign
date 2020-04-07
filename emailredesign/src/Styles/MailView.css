@@ -1,0 +1,34 @@
+.mailView {
+  background-color: white;
+  grid-area: mailView;
+  max-width: 100%;
+}
+.mailTitle {
+  border-bottom: 2px solid lightgray;
+}
+.mailHeader {
+  border-bottom: 2px solid lightgray;
+  display: flex;
+}
+.senderContainer {
+  max-width: 30px;
+  max-height: 30px;
+}
+.mailOptions {
+  border-bottom: 2px solid lightgray;
+  display: flex;
+}
+.mailOptions div img {
+  max-width: 10px;
+  max-height: 10px;
+}
+.firstOptions {
+  margin-right: 600px;
+}
+.MailBody {
+  max-width: 1000px;
+  background-color: lightgray;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}

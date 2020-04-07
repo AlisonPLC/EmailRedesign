@@ -1,12 +1,65 @@
 .Navbar {
-  width: 10%;
-  height: 100%;
+  max-width: 340px;
+  grid-area: navbar;
   background-color: white;
   border-right: 1px solid gray;
 }
 .NavbarHeader {
+  margin-top: 20px;
+  margin-left: 40px;
 }
 .navbarLogo {
+  margin-left: 5px;
   max-width: 25px;
   max-height: 22px;
+}
+.navbarSlider {
+  margin-left: 40px;
+}
+.composeButton {
+  margin-top: 100px;
+  background-color: #f44f39;
+  color: white;
+  margin-left: 10%;
+  width: 250px;
+  height: 40px;
+  text-align: center;
+}
+.emailTags {
+  margin-left: 40px;
+  margin-top: 60px;
+}
+.tagsTopic {
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+.tagsTopic img {
+  max-width: 15px;
+  max-height: 15px;
+}
+/* /\ up here we have the style on the clonned component*/
+.chatArea {
+  border-top: 1px gray solid;
+  padding-top: 30px;
+  margin-top: 100px;
+}
+.chatHeader {
+  margin-left: 40px;
+  display: flex;
+}
+.chatHeader span {
+  margin-right: 40%;
+}
+.chatHeader img {
+  max-width: 30px;
+  max-height: 30px;
+}
+.recentChats {
+  margin-left: 40px;
+}
+.chatPerson {
+}
+.chatPerson img {
+  max-width: 20px;
+  max-height: 20px;
 }

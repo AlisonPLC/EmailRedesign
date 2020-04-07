@@ -7,8 +7,7 @@ function Navbar() {
       <div className="NavbarHeader">
         <img className="navbarLogo" src={mailLogo} alt="Logo" />
         <span>Gmail</span>
-
-        <img src="null" alt="NavButton" />
+        <img classnName="navbarSlider" src="null" alt="NavButton" />
       </div>
       <div className="composeButton">
         <span>+ Compose</span>

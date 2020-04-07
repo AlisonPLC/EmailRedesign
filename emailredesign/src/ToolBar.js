@@ -4,8 +4,8 @@ function Toolbar() {
   return (
     <div className="Toolbar">
       <input></input>
-      <img src="null" alt="open menu" />
-      <img src="null" alt="User Logo" />
+      <img className="openMenu" src="null" alt="open menu" />
+      <img className="userLogo" src="null" alt="User Logo" />
     </div>
   );
 }
