@@ -64,8 +64,10 @@
   margin-left: 40px;
 }
 .chatPerson {
+  margin-top: 5px;
 }
 .chatPerson img {
+  margin-right: 20px;
   max-width: 20px;
   max-height: 20px;
 }

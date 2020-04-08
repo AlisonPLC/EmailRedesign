@@ -16,18 +16,28 @@ function Inbox() {
         <img src={defaultImage} alt="oprions" />
       </div>
       <div className="inboxInboxArea">
-        <div className="mailItem">
-          <div className="mailMain">
-            <div>
-              <h3>MailSENDER</h3>
-              <h3>MailSUBJECT</h3>
-              <h3>MailSTART</h3>
-            </div>
-            <h4>SENT</h4>
-          </div>
-          {/*can be "copied as shin shin said" */}
-        </div>
+        <MailItem />
+        <MailItem />
+        <MailItem />
+        <MailItem />
+        <MailItem />
       </div>
+    </div>
+  );
+}
+
+function MailItem() {
+  return (
+    <div className="mailItem">
+      <div className="mailMain">
+        <div>
+          <h3>MailSENDER</h3>
+          <h3>MailSUBJECT</h3>
+          <h3>MailSTART</h3>
+        </div>
+        <h4>Send When?</h4>
+      </div>
+      {/*can be "copied as shin shin said" */}
     </div>
   );
 }

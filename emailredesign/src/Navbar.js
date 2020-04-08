@@ -14,12 +14,10 @@ function Navbar() {
         <span>+ Compose</span>
       </div>
       <div className="emailTags">
-        <div className="tagsTopic">
-          <img src={defaultImage} alt="logo" />
-          <span>Inbox</span>
-
-          <img src={defaultImage} alt="notification" />
-        </div>
+        <TagsTopic />
+        <TagsTopic />
+        <TagsTopic />
+        <TagsTopic />
         {/*can be "copied" as shin said*/}
       </div>
       <div className="chatArea">
@@ -29,13 +27,32 @@ function Navbar() {
           <img src={defaultImage} alt="expand" />
         </div>
         <div className="recentChats">
-          <div className="chatPerson">
-            <img src={defaultImage} alt="targuetLogo" />
-            <span className="targuetName">NomeDoIndivíduo</span>
-          </div>
+          <ChatPerson />
+          <ChatPerson />
+          <ChatPerson />
+          <ChatPerson />
+          <ChatPerson />
           {/*can be "copied" as shin said*/}
         </div>
       </div>
+    </div>
+  );
+}
+function TagsTopic() {
+  return (
+    <div className="tagsTopic">
+      <img src={defaultImage} alt="logo" />
+      <span>Inbox</span>
+
+      <img src={defaultImage} alt="notification" />
+    </div>
+  );
+}
+function ChatPerson() {
+  return (
+    <div className="chatPerson">
+      <img src={defaultImage} alt="targuetLogo" />
+      <span className="targuetName">NomeDoIndivíduo</span>
     </div>
   );
 }
