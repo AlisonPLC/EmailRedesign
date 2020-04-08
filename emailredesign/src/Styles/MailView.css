@@ -8,6 +8,8 @@
 }
 .mailHeader {
   border-bottom: 2px solid lightgray;
+  height: 40px;
+
   display: flex;
 }
 .senderContainer {
@@ -17,6 +19,13 @@
 .senderContainer img {
   width: 100%;
   height: 100%;
+  margin: 5px;
+}
+.senderInfo {
+  margin-left: 10px;
+}
+.sendeDate {
+  margin-left: 60%;
 }
 .mailOptions {
   border-bottom: 2px solid lightgray;

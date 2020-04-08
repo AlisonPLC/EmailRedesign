@@ -28,16 +28,13 @@ function Inbox() {
 
 function MailItem() {
   return (
-    <div className="mailItem">
-      <div className="mailMain">
-        <div>
-          <h3>MailSENDER</h3>
-          <h3>MailSUBJECT</h3>
-          <h3>MailSTART</h3>
-        </div>
-        <h4>Send When?</h4>
+    <div className="mailMain">
+      <div className="mailMainText">
+        <h3>MailSENDER</h3>
+        <h3>MailSUBJECT</h3>
+        <h3>MailSTART</h3>
       </div>
-      {/*can be "copied as shin shin said" */}
+      <h4>Send When?</h4>
     </div>
   );
 }

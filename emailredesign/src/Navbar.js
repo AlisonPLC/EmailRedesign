@@ -41,10 +41,10 @@ function Navbar() {
 function TagsTopic() {
   return (
     <div className="tagsTopic">
-      <img src={defaultImage} alt="logo" />
+      <img className="topicLogo" src={defaultImage} alt="logo" />
       <span>Inbox</span>
 
-      <img src={defaultImage} alt="notification" />
+      <img className="notificationImg" src={defaultImage} alt="notification" />
     </div>
   );
 }
