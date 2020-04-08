@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/EmailRedesign/static/css/main.eafa4f80.chunk.css",
+    "main.js": "/EmailRedesign/static/js/main.d63ac9b1.chunk.js",
+    "main.js.map": "/EmailRedesign/static/js/main.d63ac9b1.chunk.js.map",
+    "runtime-main.js": "/EmailRedesign/static/js/runtime-main.3bb842f9.js",
+    "runtime-main.js.map": "/EmailRedesign/static/js/runtime-main.3bb842f9.js.map",
+    "static/js/2.c303e35d.chunk.js": "/EmailRedesign/static/js/2.c303e35d.chunk.js",
+    "static/js/2.c303e35d.chunk.js.map": "/EmailRedesign/static/js/2.c303e35d.chunk.js.map",
+    "index.html": "/EmailRedesign/index.html",
+    "precache-manifest.44002108ef73328b41b69102e5737b85.js": "/EmailRedesign/precache-manifest.44002108ef73328b41b69102e5737b85.js",
+    "service-worker.js": "/EmailRedesign/service-worker.js",
+    "static/css/main.eafa4f80.chunk.css.map": "/EmailRedesign/static/css/main.eafa4f80.chunk.css.map",
+    "static/js/2.c303e35d.chunk.js.LICENSE.txt": "/EmailRedesign/static/js/2.c303e35d.chunk.js.LICENSE.txt",
+    "static/media/gmail-logo-1.png": "/EmailRedesign/static/media/gmail-logo-1.53d29e80.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3bb842f9.js",
+    "static/js/2.c303e35d.chunk.js",
+    "static/css/main.eafa4f80.chunk.css",
+    "static/js/main.d63ac9b1.chunk.js"
+  ]
+}
